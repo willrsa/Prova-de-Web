@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #a83f58;
+    color: white;
+    padding: 20px;
+  }
+  
+  .header-container h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  nav {
+    background-color: #a83f58;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #a83f58; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0; /* Espaçamento vertical */
+}
+
+.footer-content {
+    margin-bottom: 10px; /* Espaçamento entre conteúdo e rodapé */
+}
+
+.brand {
+    font-size: 24px; /* Tamanho da fonte da marca */
+    font-weight: bold; /* Negrito para a marca */
+    margin-bottom: 10px; /* Espaçamento abaixo da marca */
+}
+
+.footer-links {
+    margin: 10px 0; /* Margem vertical entre links */
+}
+
+.footer-links a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 15px; /* Espaçamento horizontal entre links */
+    font-size: 14px; /* Tamanho da fonte dos links */
+    transition: color 0.3s; /* Transição suave para a cor do link */
+}
+
+.footer-links a:hover {
+    color: #f0e68c; /* Cor dos links ao passar o mouse */
+}
+
+.footer-bottom {
+    border-top: 1px solid #ffffff; /* Linha acima do rodapé */
+    padding-top: 10px; /* Espaçamento acima do texto do rodapé */
+}
+  
+  .founder-section {
+    padding: 40px;
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .founder-content {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+  
+  .founder-content h2 {
+    color: #a83f58;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .founder-content p {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .link-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .button {
+    background-color: #a83f58;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    border-radius: 8px;
+  }
+  
+  .button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #922746;
+  }
+  .header-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  img#clear{
+    display: flex;
+    width: 500px;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  img#founder{
+    width: 100px;
+  }
+  img#Office{
+    width: 100px;
+  }
+  img#produtos{
+    width: 100px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 50px auto;
+    gap: 20px;
+  }
+  
+  .box {
+    background-color: #f9f7f1;
+    border: 1px solid #d7c7bb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+  }
+  
+  .box img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .title {
+    background-color: #a83f58;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 0 0 5px 5px;
+  }
